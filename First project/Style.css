@@ -1,0 +1,57 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+background:url(project-1.jpg) no-repeat center center /cover ;
+height: 100vh;
+display: flex;
+flex-direction:column;   
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: sans-serif;
+line-height: 1.7rem;
+}
+.head{
+	background-color:#123;  
+	color:#fff;
+	border:2px solid #fff;
+	border-radius:7px;
+	font-size: 1rem;
+	margin-bottom: 10px; 
+	padding: 10px 20px;
+}
+
+.card{
+background-color: white;
+width: 400px;
+border-radius:10px; 
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+}
+.qout{
+color:#333;
+font-size:20px;
+margin-bottom: 10px;
+} 
+.person{
+	color:#459;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	margin-bottom: 10px; 
+}
+.btn{
+	background-color:#123;
+	color:white;
+	padding:5px 10px; 
+	width: 100px;
+	border-radius: 5px;
+display: flex;
+align-self: center;
+align-items: center;
+justify-content: center;
+}
