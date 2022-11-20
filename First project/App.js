@@ -44,6 +44,7 @@ function change(){const quots = [{
 const random=Math.random().toFixed(1)*10;
 quot.innerText=quots[random].quote;
 person.innerText=quots[random].person;
+console.log(random);
 }
 
 
