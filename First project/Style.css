@@ -26,12 +26,12 @@ line-height: 1.7rem;
 
 .card{
 background-color: white;
-width: 400px;
-border-radius:10px; 
+width: 370px;
+border-radius:15px; 
 display: flex;
 flex-direction: column;
 padding: 20px;
-
+box-shadow: 10px 10px 40px #124;
 }
 .qout{
 color:#333;
@@ -39,19 +39,27 @@ font-size:20px;
 margin-bottom: 10px;
 } 
 .person{
-	color:#459;
+	color:darkred;
 	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	margin-bottom: 10px; 
+	letter-spacing: 0.09rem;
+	margin-bottom: 13px; 
+	font-size:1.4rem; 
 }
 .btn{
-	background-color:#123;
+	background-color:#124;
 	color:white;
-	padding:5px 10px; 
+	padding:10px 15px; 
 	width: 100px;
 	border-radius: 5px;
+	border:none; 
 display: flex;
 align-self: center;
 align-items: center;
 justify-content: center;
+font-weight: bold;
+}
+.btn:active{
+background-color:#123; 
+	transform:scale(0.993);  
+
 }
